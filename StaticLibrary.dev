@@ -1,0 +1,323 @@
+[Project]
+FileName=StaticLibrary.dev
+Name=SoftWire
+UnitCount=34
+Type=2
+Ver=1
+ObjFiles=
+Includes=
+Libs=
+PrivateResource=
+ResourceIncludes=
+MakeIncludes=
+Resources=
+Compiler=-fno-operator-names
+Linker=
+IsCpp=1
+Icon=
+ExeOutput=
+ObjectOutput=
+OverrideOutput=1
+OverrideOutputName=SoftWire.a
+Folders="Header Files","Source Files"
+CommandLine=
+Order=27,21
+Focused=21
+HostApplication=
+IncludeVersionInfo=0
+SupportXPThemes=0
+CompilerSet=0
+CompilerSettings=100001100000000000
+
+[Unit1]
+FileName=Assembler.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
+FileName=CharType.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=Encoding.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
+FileName=Error.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit5]
+FileName=File.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=Instruction.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit7]
+FileName=InstructionSet.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit8]
+FileName=Link.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit9]
+FileName=Linker.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit10]
+FileName=Loader.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit11]
+FileName=Macro.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit12]
+FileName=Parser.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit13]
+FileName=Scanner.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit14]
+FileName=String.hpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit15]
+FileName=Synthesizer.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit16]
+FileName=Token.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit17]
+FileName=TokenList.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit18]
+FileName=Assembler.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit19]
+FileName=Encoding.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit20]
+FileName=Error.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit21]
+FileName=Instruction.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit22]
+FileName=InstructionSet.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit23]
+FileName=Linker.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit24]
+FileName=Loader.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit25]
+FileName=Macro.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit26]
+FileName=Parser.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit27]
+FileName=Scanner.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit28]
+FileName=Synthesizer.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit29]
+FileName=Token.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit30]
+FileName=TokenList.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit31]
+FileName=Operand.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit32]
+FileName=Operand.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Views]
+ProjectView=1
+
+[VersionInfo]
+Major=0
+Minor=1
+Release=1
+Build=1
+LanguageID=1033
+CharsetID=1252
+CompanyName=
+FileVersion=0.1
+FileDescription=Developed using the Dev-C++ IDE
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=SoftWire.a
+ProductName=SoftWire
+ProductVersion=0.1
+
+[Unit33]
+FileName=CodeGenerator.hpp
+Folder=Header Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit34]
+FileName=CodeGenerator.cpp
+Folder=Source Files
+Compile=1
+CompileCpp=1
+OverrideBuildCmd=0
+BuildCmd=
+

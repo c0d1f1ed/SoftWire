@@ -1,0 +1,41 @@
+CC = c++
+OBJEXT = .o
+SOURCES = Assembler.cpp CodeGenerator.cpp Encoding.cpp Error.cpp Instruction.cpp InstructionSet.cpp Loader.cpp Operand.cpp Synthesizer.cpp Linker.cpp RegisterAllocator.cpp Optimizer.cpp Emulator.cpp
+TESTSOURCE = Test.cpp
+OBJECTS = $(addsuffix $(OBJEXT), $(basename $(SOURCES)))
+TESTOBJECTS = $(addsuffix $(OBJEXT), $(basename $(TESTSOURCE)))
+OUTPUT = libSoftWire.a
+TESTAPP = SoftWire
+CFLAGS = -fexceptions -fno-operator-names
+LIBDIR = ./
+DEPFLAGS = -M
+
+ifdef OPTIMIZED
+ CFLAGS += -O3 -DNDEBUG
+else
+ CFLAGS += -g
+endif
+
+all: $(OUTPUT) $(TESTAPP)
+
+$(OUTPUT): $(OBJECTS)
+	ar rcs $@ $(OBJECTS)
+
+$(TESTAPP): $(TESTOBJECTS)
+	$(CC) -L$(LIBDIR) -o $@ $(TESTOBJECTS) -lSoftWire
+
+-include Makefile.dep
+
+%.o: %.cpp
+	$(CC) $(CFLAGS) -c $<
+
+.PHONY: clean
+
+depend:
+	rm -f Makefile.dep;
+	$(CXX) $(CFLAGS) $(DEPFLAGS) $(SOURCES) $(TESTSOURCE) > Makefile.dep
+
+clean:
+	rm -f $(OUTPUT)
+	rm -f $(TESTAPP)
+	rm -f *$(OBJEXT)

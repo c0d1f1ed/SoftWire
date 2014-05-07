@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticLibrary", "StaticLibrary.vcproj", "{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApplication", "TestApplication.vcproj", "{7D7F9396-5281-44B5-8769-36C6716D46DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72} = {13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Debug.ActiveCfg = Debug|Win32
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Debug.Build.0 = Debug|Win32
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Release.ActiveCfg = Release|Win32
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Release.Build.0 = Release|Win32
+		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Debug.ActiveCfg = Debug|Win32
+		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Debug.Build.0 = Debug|Win32
+		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Release.ActiveCfg = Release|Win32
+		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		Readme.html = Readme.html
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
