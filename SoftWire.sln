@@ -1,33 +1,42 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticLibrary", "StaticLibrary.vcproj", "{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}"
-	ProjectSection(ProjectDependencies) = postProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E4958E18-C74B-4E10-928D-AF81C077B79F}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.html = Readme.html
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApplication", "TestApplication.vcproj", "{7D7F9396-5281-44B5-8769-36C6716D46DB}"
-	ProjectSection(ProjectDependencies) = postProject
-		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72} = {13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApplication", "TestApplication.vcxproj", "{7D7F9396-5281-44B5-8769-36C6716D46DB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticLibrary", "StaticLibrary.vcxproj", "{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}"
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Release = Release
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Debug.ActiveCfg = Debug|Win32
-		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Debug.Build.0 = Debug|Win32
-		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Release.ActiveCfg = Release|Win32
-		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Release.Build.0 = Release|Win32
-		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Debug.ActiveCfg = Debug|Win32
-		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Debug.Build.0 = Debug|Win32
-		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Release.ActiveCfg = Release|Win32
-		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Release.Build.0 = Release|Win32
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Debug|Win32.Build.0 = Debug|Win32
+		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Debug|x64.ActiveCfg = Debug|x64
+		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Debug|x64.Build.0 = Debug|x64
+		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Release|Win32.ActiveCfg = Release|Win32
+		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Release|Win32.Build.0 = Release|Win32
+		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Release|x64.ActiveCfg = Release|x64
+		{7D7F9396-5281-44B5-8769-36C6716D46DB}.Release|x64.Build.0 = Release|x64
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Debug|Win32.Build.0 = Debug|Win32
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Debug|x64.ActiveCfg = Debug|x64
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Debug|x64.Build.0 = Debug|x64
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Release|Win32.ActiveCfg = Release|Win32
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Release|Win32.Build.0 = Release|Win32
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Release|x64.ActiveCfg = Release|x64
+		{13E6F43F-CC20-4861-BC80-FA1A1F4CBB72}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
-	GlobalSection(SolutionItems) = postSolution
-		Readme.html = Readme.html
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

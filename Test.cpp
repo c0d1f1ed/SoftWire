@@ -472,7 +472,7 @@ void testX64()
 {
 	printf("X64 test.\n\n");
 	printf("Press any key to start assembling.\n\n");
-	getch();
+	_getch();
 
 	X64 x64;
 
@@ -498,7 +498,7 @@ void testX64()
 
 int main()
 {
-#if 1
+#if 0
 	testIntrinsics();
 	testRegisterAllocator();
 	testOptimizations();
@@ -508,7 +508,7 @@ int main()
 #endif
 
 	printf("Press any key to continue\n");
-	getch();
+	_getch();
 	
 	return 0;
 }
